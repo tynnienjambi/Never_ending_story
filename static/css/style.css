@@ -7,3 +7,11 @@
 .story {
     display: none;
 }
+
+.story_piece {
+    display: none;
+}
+
+strong {
+    cursor: pointer;
+}
