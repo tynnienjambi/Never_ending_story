@@ -1,8 +1,12 @@
-$("#mainbranch").click(function() {
+$("#switch0_4").click(function() {
+    $("#story0_5").hide();
     $(".story_piece").show();
     $("#story1").show();
-    $("#mainbranch").hide();
+
 })
+
+
+
 $("#switch1_1").click(function() {
     $("#story1_2").hide();
     $("#story1_3").hide();
@@ -11,10 +15,34 @@ $("#switch1_1").click(function() {
     $("#story2").show();
 
 })
-$("#switch2_3").click(function() {
-    $("#story2_4").hide();
+$("#switch2_4").click(function() {
     $("#story2_5").hide();
     $("#story3").show();
+})
+
+
+let page = document.getElementById("root");
+let newPage = document.getElementById("newPage");
+
+
+$("#switch2_3").click(function() {
+
+    $("#story2_4").hide();
+    $("#story2_5").hide();
+
+    let cont = document.createElement("div");
+    let div = document.createElement("div");
+    let title = document.createElement("h1");
+    let dec = document.createElement("p");
+
+
+    cont.appendChild(div);
+    div.appendChild(title);
+    div.appendChild(dec);
+
+    title = "books";
+    dec = "books are good";
+
 })
 
 

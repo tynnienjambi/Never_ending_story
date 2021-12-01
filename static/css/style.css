@@ -15,3 +15,34 @@
 strong {
     cursor: pointer;
 }
+
+.about {
+    padding: 5vh 10vw;
+    height: 90vh;
+}
+
+.about_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about_container>img {
+    height: 70vh;
+    padding: 0vw 1vw;
+}
+
+.about_text {
+    align-self: center;
+}
+
+.about_text>p {
+    padding: 15px 0px;
+}
+
+.stories {
+    background-image: url(/static/images/Border\ 06.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20vw;
+    background-color: rgb(255, 219, 172);
+}
